@@ -1,0 +1,9 @@
+READ ENTITIES OF ${bdef_name} 
+" IN LOCAL MODE 
+" FORWARDING PRIVILEGED 
+ENTITY ${entity_name}     
+EXECUTE ${function_name} 
+FROM CORRESPONDING #( ${input_table} ) 
+RESULT DATA(${result_table}). 
+" FAILED DATA(${failed_struct}) 
+" REPORTED DATA(${reported_struct}) 
