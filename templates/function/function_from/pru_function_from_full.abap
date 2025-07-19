@@ -4,7 +4,7 @@ READ ENTITIES OF ${bdef_name}
 ENTITY ${entity_name}     
 EXECUTE ${function_name} 
 FROM CORRESPONDING #( ${input_table} )
-"REQUEST request_fields
+""REQUEST ${request_fields}
 RESULT DATA(${result_table}). 
 " FAILED DATA(${failed_struct}) 
 " REPORTED DATA(${reported_struct}) 
